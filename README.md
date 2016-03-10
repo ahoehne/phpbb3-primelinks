@@ -12,6 +12,6 @@ How To install:
 
 1) Just place this Repository in your phpbb3 installation
 
-2) after that you are able to rename domain_whitelist.example.php to domain_whitelist.php
+2) You are free to rename domain_whitelist.example.php to domain_whitelist.php or create your own one
 
 3) Modify your domain_whitelist.php to whitelist your Domains
