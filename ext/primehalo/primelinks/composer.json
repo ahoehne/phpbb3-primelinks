@@ -1,0 +1,32 @@
+{
+   "name": "primehalo/primelinks",
+   "type": "phpbb-extension",
+   "description": "Modifies links within posts so that local links are correctly classified as such. It can also apply a target to external links (e.g. to open in a new window) and prepend links (e.g. to apply an anonymizer).",
+   "homepage": "http://www.absoluteanime.com/admin/mods.htm#links",
+   "version": "1.0.1ah",
+   "time": "2016-03-10",
+   "license": "GPL-2.0",
+   "authors": [
+      {
+         "name": "Ken F. Innes IV",
+         "email": "primehalo@gmail.com",
+         "homepage": "http://www.absoluteanime.com/",
+         "role": "Lead Developer"
+      },
+      {
+         "name": "Andreas Höhne",
+         "email": "info@webdesign-hoehne.de",
+         "homepage": "http://www.webdesign-hoehne.de/",
+         "role": "Simple extension"
+      }
+   ],
+   "require": {
+      "php": ">=5.3.3"
+   },
+   "extra": {
+      "display-name": "phpBB 3.1 Prime Links Extension",
+      "soft-require": {
+         "phpbb/phpbb": ">=3.1.0,<3.2.*@dev"
+      }
+   }
+}

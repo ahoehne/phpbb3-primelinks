@@ -1,0 +1,8 @@
+services:
+    primehalo.primelinks.listener:
+        class: primehalo\primelinks\event\listener
+        arguments:
+            - @template
+            - @user
+        tags:
+            - { name: event.listener }

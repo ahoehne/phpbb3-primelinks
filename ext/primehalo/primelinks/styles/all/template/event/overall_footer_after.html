@@ -1,0 +1,9 @@
+<!-- IF PRIME_LINK_REL || PRIME_LINK_TARGET -->
+<script>$("#memberlist .info a, #viewprofile .details a")<!-- IF PRIME_LINK_REL -->.attr({rel: "{PRIME_LINK_REL}"})<!-- ENDIF --><!-- IF PRIME_LINK_TARGET -->.attr({target: "{PRIME_LINK_TARGET}"})<!-- ENDIF --></script>
+<!-- ENDIF -->
+
+<!-- BEGIN forumrow -->
+	<!-- IF forumrow.PRIME_LINK_REL || forumrow.PRIME_LINK_TARGET -->
+	<script>$("a.forumtitle[href='{forumrow.U_VIEWFORUM}']")<!-- IF forumrow.PRIME_LINK_REL -->.attr({rel: "{forumrow.PRIME_LINK_REL}"})<!-- ENDIF --><!-- IF forumrow.PRIME_LINK_TARGET -->.attr({target: "{forumrow.PRIME_LINK_TARGET}"})<!-- ENDIF -->;</script>
+	<!-- ENDIF -->
+<!-- END forumrow -->
