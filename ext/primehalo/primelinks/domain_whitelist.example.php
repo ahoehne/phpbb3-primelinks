@@ -1,4 +1,9 @@
 <?php
+
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
 if ($this->internal_link_domains != ''){
 	$this->internal_link_domains .= ';';
 }
