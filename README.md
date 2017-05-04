@@ -1,6 +1,6 @@
 # phpbb3-primelinks
 modificated phpbb3.1.x mod from http://www.absoluteanime.com/admin/mods.htm#links
-Seems to work on php3.2.x aswell
+Seems to work on phpbb3.2.x aswell
 
 modifications by www.webdesign-hoehne.de
 
